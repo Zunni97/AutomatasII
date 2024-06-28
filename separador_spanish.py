@@ -8,8 +8,7 @@ def separar_caracteres(cadena):
     for caracter in cadena:
         if caracter not in caracteres_validos:
             return "Error, caracter invalido"
-        else:
-            return list(cadena)
+    return list(cadena)
 
 cadena_usuario = input("Ingrese una cadena de texto: ")
 
