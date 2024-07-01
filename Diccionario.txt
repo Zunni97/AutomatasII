@@ -1,3 +1,5 @@
+Diccionario español.
+
 Sustantivos: casa, carro, mochila, ciudad, celular, computadora, cama, escuela, libro, cartera
 Adejtivos: grande, pequeño, bonito, feo, alto, rapido, lento, fuerte, debil, vacio
 Adverbio: muy, quiza, nunca, recien, tambien, tampoco, mucho, poco, aun, aqui
