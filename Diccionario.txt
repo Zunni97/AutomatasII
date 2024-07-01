@@ -1,0 +1,5 @@
+Sustantivos: casa, carro, mochila, ciudad, celular, computadora, cama, escuela, libro, cartera
+Adejtivos: grande, pequeño, bonito, feo, alto, rapido, lento, fuerte, debil, vacio
+Adverbio: muy, quiza, nunca, recien, tambien, tampoco, mucho, poco, aun, aqui
+Pronombre: yo, tu, el, la, ella, nosotros, nosotras, ustedes, ellos, ellas
+Verbos: corre, camina, maneja, duerme, come, escucha, platica, estudia, toma, gasta
