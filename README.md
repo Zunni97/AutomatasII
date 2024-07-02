@@ -1,5 +1,7 @@
 # Automatas II
 
+Autor: Zunni Rojas B.
+
 Este programa fue hecho con Python en su version 3.12.0 
 
 El programa separa las letras, numeros y caracteres del lenguaje español que el usuario ingresa previamente, 
