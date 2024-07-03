@@ -1,14 +1,13 @@
 def load_sustantivos(palabra):
     fid = open('diccionario/sustantivos.txt')
     for line in fid:
-        data = line.split('-') # 0 -> token / 1 -> lista de palabras
-        #print(f"Encontrado {data[0]}") if palabra in data[1] else print("\tNEL")
-        for diccionario_palabras in data[1].strip().split(","):
+        data = line.split('-')
+        token = data[0]
+        palabras = data[1].strip().split(',')
+        for diccionario_palabras in palabras:
             if palabra == diccionario_palabras:
-                print(f"\n\t Si lo encontre y su token es {data[0]}\n")
+                print(f"\t Si lo encontre y su token es {token}\n")
                 fid.close()
-                return data[0]
-
+                return token
+    print(f"\t No se encontro la palabra '{palabra}'")
     fid.close()
-
-load_sustantivos("amor")
