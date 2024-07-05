@@ -1,0 +1,4 @@
+101 - carro, celular, libro 
+102 - casa, mochila, ciudad, computadora, cama, escuela, cartera
+103 - amor, odio, enojo
+104 - alegria, felicidad, tristeza, emocion

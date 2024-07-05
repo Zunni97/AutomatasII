@@ -11,3 +11,9 @@ def load_sustantivos(palabra):
                 return token
     print(f"\t No se encontro la palabra '{palabra}'")
     fid.close()
+
+def leer_gramatica():
+    archivo_gramatica = open('diccionario/gramatica.txt')
+    contenido = archivo_gramatica.read()
+    archivo_gramatica.close()
+    return contenido
