@@ -16,7 +16,7 @@ if __name__ == '__main__':
 if __name__ == '__main__':
     cadena_usuario = lector.leer_gramatica()
     resultado_validacion = validador_caracteres.validar_caracter(cadena_usuario)
-    
+    lista_tokens = []
     if isinstance(resultado_validacion, str):
         print(resultado_validacion)  # Imprimir el error si hay caracteres inválidos
     else:
@@ -25,4 +25,6 @@ if __name__ == '__main__':
         for linea in lineas_gramatica:
             for palabra in linea.split():
                 print(f"\n\t Buscando la palabra: {palabra}")
-                lector.load_sustantivos(palabra)
+                lista_tokens.append(lector.find_sustantivo(palabra))
+
+    print(f"\t Tokens Encontrados: {lista_tokens}")
