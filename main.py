@@ -21,8 +21,8 @@ if __name__ == '__main__':
         print(resultado_validacion)  # Imprimir el error si hay caracteres inválidos
     else:
         #print("Cadena separada por caracteres: ", resultado_validacion)
-        lineas_cadena = cadena_usuario.split('\n')
-        for linea in lineas_cadena:
+        lineas_gramatica = cadena_usuario.split('\n')
+        for linea in lineas_gramatica:
             for palabra in linea.split():
                 print(f"\n\t Buscando la palabra: {palabra}")
                 lector.load_sustantivos(palabra)
