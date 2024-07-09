@@ -3,7 +3,6 @@ def load_sustantivos(palabra):
     for line in fid:
         data = line.split('-')
         token = data[0]
-        lista_tokens = [token]
         palabras = data[1].strip().split(',')
         for diccionario_palabras in palabras:
             if palabra == diccionario_palabras:
@@ -11,7 +10,8 @@ def load_sustantivos(palabra):
                 fid.close()
                 return token
     print(f"\t No se encontro la palabra '{palabra}'")
-    print(lista_tokens)
+    lista_tokens = [token]
+    print(f"\t Su token es: {lista_tokens}")
     fid.close()
 
 
