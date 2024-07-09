@@ -1,5 +1,5 @@
 def find_sustantivo(palabra):
-    fid = open('diccionario/sustantivos.txt')
+    fid = open('diccionario/diccionario.txt')
     for line in fid:
         data = line.split('-')
         token = data[0]
@@ -10,9 +10,9 @@ def find_sustantivo(palabra):
                 fid.close()
 
                 return token
-    #print(f"\t No se encontro la palabra '{palabra}'")
+    print("\t Palabra invalida, token 666")
     return 666
-    fid.close()
+    #fid.close()
 
 
 

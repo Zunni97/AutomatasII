@@ -28,3 +28,6 @@ if __name__ == '__main__':
                 lista_tokens.append(lector.find_sustantivo(palabra))
 
     print(f"\t Tokens Encontrados: {lista_tokens}")
+    archivo_tokens = open('diccionario/lista_tokens.txt', 'w')
+    archivo_tokens.write(str(lista_tokens))
+    archivo_tokens.close()
